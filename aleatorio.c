@@ -4,7 +4,7 @@
 
 int main() {
     // Array de strings
-    const char *nomes[] = {"couto", "ricardo", "Raisa", "liriel", "Bruno", "Angelo", "Taina", "Sofia", "Well", "Gabriel"};
+    const char *nomes[] = {"couto", "ricardo", "Raisa", "liriel", "Bruno", "Angelo", "Taina", "Sofia", "Well", "Gabriel", 'alteração'};
     int total_nomes = sizeof(nomes) / sizeof(nomes[0]); // Número de elementos no array
 
     // Inicializa o gerador de números aleatórios
